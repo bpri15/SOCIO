@@ -15,6 +15,7 @@ const dbUrl =
 const connectionParams = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  serverSelectionTimeoutMS: 20000
 };
 
 mongoose
