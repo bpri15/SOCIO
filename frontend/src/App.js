@@ -13,7 +13,7 @@ import Signup from "./components/Screens/Login/Signup";
 function App() {
   const [darkTheme, setDarkTheme] = useState(false);
   useEffect(() => {
-    document.title = "SOSH";
+    document.title = "SOCIO";
   }, []);
 
   const toggleTheme = () => {
