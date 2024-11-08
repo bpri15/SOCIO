@@ -7,7 +7,7 @@ const Whatstrending = () => {
 
   useEffect(() => {
     const fetchTrendingHeadlines = async () => {
-      const apiKey = process.env.REACT_APP_GNEWS_API;
+      const apiKey = "7b06fee22737ba205cfd9788f01f318d";
       const apiUrl = `https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&max=10&apikey=${apiKey}`;
 
       try {
