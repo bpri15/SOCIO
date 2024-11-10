@@ -30,7 +30,7 @@ function Login() {
   return (
     <div className="flex flex-col justify-center items-center w-screen h-screen">
       <div className="flex flex-row text-center mb-5">
-        <h1 className="text-4xl text-teal-950 font-bold" style={{ color: "#6F38C5" }}>SOSH</h1>
+        <h1 className="text-4xl text-teal-950 font-bold" style={{ color: "#6F38C5" }}>SOCIO</h1>
         <h1 className="text-4xl text-teal-950 font-bold"> - </h1>
         <h1 className="text-4xl text-teal-950 font-bold"> <Type/></h1>
       </div>
